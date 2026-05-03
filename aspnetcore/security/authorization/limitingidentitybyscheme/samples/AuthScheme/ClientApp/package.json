@@ -21,7 +21,7 @@
     "@angular/forms": "~12.2.2",
     "@angular/platform-browser": "~12.2.2",
     "@angular/platform-browser-dynamic": "~12.2.2",
-    "@angular/platform-server": "~12.2.2",
+    "@angular/platform-server": "~21.2.11",
     "@angular/router": "~12.2.2",
     "bootstrap": "^5.1.0",
     "jquery": "^3.5.1",
