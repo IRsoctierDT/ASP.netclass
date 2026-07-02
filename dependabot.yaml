@@ -1,0 +1,12 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+    groups:
+      minor-and-patch:
+        update-types: ["minor", "patch"]   # batch the safe stuff into one PR
+    # Major bumps come as their own PRs so you review breaking changes deliberately
